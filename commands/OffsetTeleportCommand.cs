@@ -1,7 +1,3 @@
-// ------------------------------------------------------------------
-//                  FINAL AND COMPLETE OffsetTeleportCommand.cs
-// ------------------------------------------------------------------
-
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -10,7 +6,7 @@ using EggLink.DanhengServer.Command.Command;
 using EggLink.DanhengServer.GameServer.Game.Player;
 using EggLink.DanhengServer.Util;
 
-namespace MyDanhengPlugins
+namespace TeleportPlugin
 {
     [CommandInfo("offsettp", "相对位移传送", "用法: /offsettp <set1|set2|go|status|clear>")]
     public class OffsetTeleportCommand : ICommand
@@ -146,7 +142,7 @@ namespace MyDanhengPlugins
             var player = arg.Target?.Player as PlayerInstance;
             if(player == null || player.Data == null)
             {
-                return null; // 主方法会处理发送给用户的消息
+                return null;
             }
             return player;
         }

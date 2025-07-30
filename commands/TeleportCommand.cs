@@ -5,7 +5,7 @@ using EggLink.DanhengServer.Database.Player;
 using EggLink.DanhengServer.GameServer.Game.Player;
 using EggLink.DanhengServer.Util;
 
-namespace MyDanhengPlugins
+namespace TeleportPlugin
 {
     [CommandInfo("tp", "传送到指定坐标", "/tp <x> <y> <z>")]
     public class TeleportCommand : ICommand

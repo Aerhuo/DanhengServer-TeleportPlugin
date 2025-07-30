@@ -2,9 +2,9 @@ using System;
 using EggLink.DanhengServer.GameServer.Plugin.Constructor;
 using EggLink.DanhengServer.Util;
 using EggLink.DanhengServer.Command.Command;
-using MyDanhengPlugins;
+using TeleportPlugin;
 
-namespace MyDanhengPlugins
+namespace TeleportPlugin
 {
     [PluginInfo("TeleportExtended", "多功能传送插件", "1.0.0")]
     public class TeleportPluginEntry : IPlugin

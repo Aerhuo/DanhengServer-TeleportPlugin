@@ -4,7 +4,7 @@ using EggLink.DanhengServer.Command.Command;
 using EggLink.DanhengServer.GameServer.Game.Player;
 using EggLink.DanhengServer.Util;
 
-namespace MyDanhengPlugins
+namespace TeleportPlugin
 {
     [CommandInfo("getpos", "获取你当前的坐标信息", "用法: /getpos")]
     public class GetPositionCommand : ICommand
