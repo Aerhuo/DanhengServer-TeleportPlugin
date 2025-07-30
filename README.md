@@ -25,5 +25,5 @@
 本项目使用 .NET 8 构建。
 
 1.  克隆本仓库。
-2.  在项目根目录运行 `dotnet build`。
+2.  在项目根目录运行 `dotnet build TeleportCommand.csproj`。
 3.  生成的DLL文件位于 `bin/Debug/net8.0/TeleportPlugin.dll`。
