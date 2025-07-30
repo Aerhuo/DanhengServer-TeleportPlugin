@@ -15,7 +15,6 @@ namespace MyDanhengPlugins
         {
             try
             {
-                // 我们现在可以自信地调用这个方法，因为我们已经找到了正确的路径
                 var cmdManager = CommandManager.Instance;
                 if (cmdManager != null)
                 {

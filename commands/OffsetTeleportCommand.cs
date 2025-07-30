@@ -16,8 +16,6 @@ namespace MyDanhengPlugins
     public class OffsetTeleportCommand : ICommand
     {
         private static readonly Logger _logger = new Logger("OffsetTeleport");
-
-        // 使用静态字典在内存中为每个玩家存储坐标点
         private static readonly Dictionary<int, Position> _pos1Store = new();
         private static readonly Dictionary<int, Position> _pos2Store = new();
 
@@ -107,7 +105,6 @@ namespace MyDanhengPlugins
             }
         }
 
-        // 【已补全】status 子命令
         [CommandMethod("status")]
         public async ValueTask HandleStatus(CommandArg arg)
         {
@@ -124,7 +121,6 @@ namespace MyDanhengPlugins
             await arg.SendMsg($"当前状态:\n坐标点1: {p1Status}\n坐标点2: {p2Status}");
         }
 
-        // 【已补全】clear 子命令
         [CommandMethod("clear")]
         public async ValueTask HandleClear(CommandArg arg)
         {
@@ -140,14 +136,11 @@ namespace MyDanhengPlugins
             await arg.SendMsg("已清除为你记录的所有坐标点。");
         }
 
-        // 【已补全】默认帮助信息
         [CommandDefault]
         public async ValueTask HandleDefault(CommandArg arg)
         {
             await arg.SendMsg("相对位移传送指令用法:\n/offsettp set1 - 记录坐标点1\n/offsettp set2 - 记录坐标点2\n/offsettp go - 执行传送\n/offsettp status - 查看已记录的坐标\n/offsettp clear - 清除记录");
         }
-
-        // 辅助方法，现在同时检查Player和Data，避免代码重复
         private PlayerInstance? GetPlayerAndData(CommandArg arg)
         {
             var player = arg.Target?.Player as PlayerInstance;

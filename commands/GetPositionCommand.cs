@@ -23,7 +23,6 @@ namespace MyDanhengPlugins
 
             try
             {
-                // 【已修正】将局部变量 currentPos 也声明为可空的 Position?，以消除警告
                 Position? currentPos = player.Data.Pos;
                 if (currentPos == null)
                 {
