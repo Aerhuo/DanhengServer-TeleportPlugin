@@ -1,4 +1,4 @@
-# 多功能传送插件 (TeleportExtended) for DanhengServer
+# 多功能传送插件 (TeleportPlugin) for DanhengServer
 
 [![Author](https://img.shields.io/badge/Author-Aerhuo-blue.svg)](https://github.com/Aerhuo)
 
@@ -18,7 +18,7 @@
 
 ## 📖 用法
 
-请参阅我们详细的 [**用户手册 (USER_MANUAL_CN.md)**](USER_MANUAL_CN.md) 来了解所有指令的详细用法和示例。
+请参阅详细的 [**用户手册 (USER_MANUAL_CN.md)**](USER_MANUAL_CN.md) 来了解所有指令的详细用法和示例。
 
 ## 🚀 编译
 
