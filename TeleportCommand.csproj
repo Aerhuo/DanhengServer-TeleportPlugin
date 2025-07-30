@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>TeleportPlugin</AssemblyName>
+    <Authors>Aerhuo</Authors>
+    <Description>A multi-functional teleport plugin for DanhengServer, providing absolute, relative, and position-checking commands.</Description>
+    <RepositoryUrl>https://github.com/Aerhuo/DanhengServer-TeleportPlugin</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DanhengCommand">
+      <HintPath>libs\DanhengCommand.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengCommon">
+      <HintPath>libs\DanhengCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengGameServer">
+      <HintPath>libs\DanhengGameServer.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengKcpSharp">
+      <HintPath>libs\DanhengKcpSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengProto">
+      <HintPath>libs\DanhengProto.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengServer">
+      <HintPath>libs\DanhengServer.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengWebServer">
+      <HintPath>libs\DanhengWebServer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
