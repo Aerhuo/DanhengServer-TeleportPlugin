@@ -13,7 +13,7 @@
 ## 🔧 安装
 
 1.  前往 [Releases](https://github.com/YourUsername/TeleportPlugin/releases) 页面下载最新的 `TeleportPlugin.dll` 文件。
-2.  将下载的 `TeleportPlugin.dll` 文件放入您 DanhengServer 服务器的 `Plugins` 文件夹中。
+2.  将下载的 `TeleportPlugin.dll` 文件放入 DanhengServer 服务器的 `Plugins` 文件夹中。
 3.  重启服务器。当您在后台日志中看到 `[TeleportExtended] [INFO] 多功能传送插件已加载！...` 的消息时，说明安装成功。
 
 ## 📖 用法
